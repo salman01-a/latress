@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --warna1: #445E6D;
+    --warna2: #FFFFFF;
+    --warna3: #F5D4C1;
+  }
+
+  .bg-warna1 {
+    background: var(--warna1);
+  }
+
+  .bg-warna2 {
+    background: var(--warna2);
+  }
+
+  .bg-warna3 {
+    background: var(--warna3);
+  }
+
+  .text-warna1 {
+    color: var(--warna1);
+  }
+
+  .text-warna2 {
+    color: var(--warna2);
+  }
+
+  .text-warna3 {
+    color: var(--warna3);
+  }
+
+  .text-grey {
+    color: grey;
+  }
+
+  .btn-warna1 {
+    background: var(--warna1);
+    color: #fff;
+  }
+
+  .btn-warna1:hover {
+    background: #354955;
+    color: #fff;
+  }
+
+  .btn-warna2 {
+    background: var(--warna2);
+    color: var(--warna2);
+  }
+
+  .card-image {
+    object-fit: cover;
+    height: 180px;
+    width: 100%;
+  }
+
+  .w-100vh {
+    width: 100vh;
+  }
+
+  .h-100vh {
+    height: 100vh;
+  }
+
+  .a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: semibold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .a:hover {
+    color: #b8b8b8;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .a-active {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
